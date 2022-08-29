@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_tables",
+  "info": {
+    "singularName": "price-table",
+    "pluralName": "price-tables",
+    "displayName": "price_table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_prestation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
