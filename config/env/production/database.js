@@ -5,7 +5,7 @@ const config = parse(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => ({
   connection: {
-    client: 'postgres',
+    client: 'sqlite',
     connection: {
       host: config.host,
       port: config.port,
